@@ -19,6 +19,10 @@ cloudCostBoard is a comprehensive AWS cost management dashboard designed to help
 - **Storage**: Reports are stored in Amazon S3, with AWS SNS used for sending presigned URLs.
 - **Security**: AWS Secrets Manager for securely storing AWS credentials and CryptoJS for encrypted data transmission.
 
+## Future Work Scope
+
+Looking ahead, I plan to expand CloudCostBoard by integrating support for other cloud providers, such as GCP and Azure, offering users a more comprehensive multi-cloud cost management tool. Additionally, I aim to introduce alert features that will notify users via email about significant changes in their spending patterns. Users will also be able to set these alerts for specific services, providing even more control over their cloud costs. Another enhancement will include more granular details of service usage, providing deeper insights into data consumption across individual services.
+
 ## Architecture
 
 The cloudCostBoard architecture is fully serverless, ensuring scalability and efficiency. The frontend is deployed as a Docker image on EC2, while backend operations are managed through AWS Lambda functions. API Gateway serves as the bridge between the frontend and backend. Reports are generated and stored in S3, with notifications sent via SNS, allowing users to easily access their data.
