@@ -6,7 +6,7 @@ cloudCostBoard is a comprehensive AWS cost management dashboard designed to help
 
 ## Features
 
-- **Advanced Filtering**: Apply a date range filter and gain cost insights by grouping data by service, region, or account.
+- **Advanced Filtering**: Apply a date range filter and gain cost insights by grouping cost by service, region, or account.
 - **Cost Visualization**: View cost trends over time through intuitive graphs to analyze and understand spending patterns.
 - **Report Generation**: Generate detailed reports by applying filters. Users can enter their email address to receive a report URL via email.
 - **Secure AWS Credential Management**: AWS credentials are securely stored using AWS Secrets Manager, ensuring data protection and privacy.
